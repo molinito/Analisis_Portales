@@ -1,30 +1,3 @@
-/*import React from "react";
-
-// Definir la interfaz para los datos de los portales
-interface Portal {
-  id: number;
-  name: string;
-  usage: {
-    totalVisits: number;
-  };
-}
-
-interface PortalPieChartProps {
-  portals: Portal[];
-}
-
-const PortalPieChart: React.FC<PortalPieChartProps> = ({ portals }) => {
-  return (
-    <div>
-      <h2>PortalPieChart</h2>
-      <pre>{JSON.stringify(portals, null, 2)}</pre>{" "}
-      {/* Mostrar los datos de los portales *}
-    </div>
-  );
-};
-
-export default PortalPieChart;*/
-
 import React from "react";
 import {
   PieChart,
@@ -100,7 +73,7 @@ const PortalPieChart: React.FC<PortalPieChartProps> = ({ portals }) => {
               fill="#8884d8"
               label
             >
-              {pieData.map((entry, index) => (
+              {pieData.map((_, index) => (
                 <Cell
                   key={`cell-${index}`}
                   fill={COLORS[index % COLORS.length]}
