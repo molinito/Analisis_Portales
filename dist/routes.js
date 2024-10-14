@@ -1,3 +1,4 @@
+
 "use strict";
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
@@ -31,7 +32,7 @@ const express_1 = require("express");
 const fs = __importStar(require("fs"));
 const path_1 = __importDefault(require("path"));
 exports.router = (0, express_1.Router)();
-const dataPath = path_1.default.join(__dirname, "./backend/data.json");
+const dataPath = path_1.default.join(__dirname, "../backend/data.json");
 exports.router.get("/portals", (req, res) => {
     fs.readFile(dataPath, "utf-8", (err, data) => {
         if (err) {
@@ -42,12 +43,12 @@ exports.router.get("/portals", (req, res) => {
     });
 });
 exports.router.get("/usage", (req, res) => {
-    const data = fs.readFileSync("./backend/data.json", "utf-8");
+    const data = fs.readFileSync("../backend/data.json", "utf-8");
     res.json(JSON.parse(data));
 });
 exports.router.post("/track", (req, res) => {
     const { portal, eventType, timestamp } = req.body;
-    const data = JSON.parse(fs.readFileSync("./backend/data.json", "utf-8"));
+    const data = JSON.parse(fs.readFileSync("../backend/data.json", "utf-8"));
     const newEvent = { portal, eventType, timestamp };
     data.events.push(newEvent);
     fs.writeFileSync("./backend/data.json", JSON.stringify(data, null, 2));

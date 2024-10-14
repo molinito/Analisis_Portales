@@ -4,8 +4,8 @@
     "name": "Portal de Onnis",
     "url": "http://186.189.234.96:3000/",
     "usage": {
-      "totalVisits": 4,
-      "totalTimeSpent": 116,
+      "totalVisits": 15,
+      "totalTimeSpent": 478,
       "mostVisitedSection": "Página Principal"
     }
   },
@@ -14,8 +14,8 @@
     "name": "Portal Mbas HHCC",
     "url": "http://186.13.41.66:5010/Login",
     "usage": {
-      "totalVisits": 5,
-      "totalTimeSpent": 217,
+      "totalVisits": 12,
+      "totalTimeSpent": 461,
       "mostVisitedSection": "Página Principal"
     }
   },
@@ -24,8 +24,8 @@
     "name": "Portal Mbas Pacientes",
     "url": "http://181.168.126.40:8182",
     "usage": {
-      "totalVisits": 2,
-      "totalTimeSpent": 7,
+      "totalVisits": 19,
+      "totalTimeSpent": 475,
       "mostVisitedSection": "Página Principal"
     }
   },
@@ -34,8 +34,8 @@
     "name": "Portal ITC",
     "url": "http://201.231.113.236:3000 ",
     "usage": {
-      "totalVisits": 7,
-      "totalTimeSpent": 241,
+      "totalVisits": 16,
+      "totalTimeSpent": 466,
       "mostVisitedSection": "Página Principal"
     }
   },
@@ -44,8 +44,8 @@
     "name": "Portal RGauss",
     "url": "http://201.231.113.236:3000/Login",
     "usage": {
-      "totalVisits": 5,
-      "totalTimeSpent": 120,
+      "totalVisits": 6,
+      "totalTimeSpent": 155,
       "mostVisitedSection": "Página Principal"
     }
   },
@@ -64,8 +64,8 @@
     "name": "Portal CoC",
     "url": "http://200.123.109.166:3000/Login",
     "usage": {
-      "totalVisits": 10,
-      "totalTimeSpent": 285,
+      "totalVisits": 19,
+      "totalTimeSpent": 599,
       "mostVisitedSection": "Página Principal"
     }
   },
@@ -74,8 +74,8 @@
     "name": "Portal Nascentis",
     "url": "http://200.105.78.130:3000/Login",
     "usage": {
-      "totalVisits": 3,
-      "totalTimeSpent": 31,
+      "totalVisits": 24,
+      "totalTimeSpent": 741,
       "mostVisitedSection": "Página Principal"
     }
   },
