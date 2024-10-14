@@ -12,14 +12,14 @@ app.use(cors());
 app.use(bodyparser.json());
 
 // Sirve los archivos estáticos del frontend compilado
-app.use(express.static(path.join(__dirname, "../frontend/build")));
+app.use(express.static(path.join(__dirname, "../frontend/dist")));
 
 // API routes
 app.use("/api", router);
 
 // Para cualquier ruta que no sea de API, servir el frontend
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "../frontend/build", "index.html"));
+  res.sendFile(path.join(__dirname, "../frontend/dist", "index.html"));
 });
 
 app.listen(port, () => {
