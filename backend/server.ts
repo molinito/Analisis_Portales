@@ -21,7 +21,7 @@ app.post("/api/track", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log("Server started at http://localhost:${port}");
+  console.log(`Server started at http://localhost:${port}`);
 });
 
 // ESTE COMPONENTE ES EL QUE SE ENCARGA DE INICIAR EL SERVIDOR DE EXPRESS
