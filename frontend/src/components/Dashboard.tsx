@@ -32,7 +32,7 @@ export const Dashboard: React.FC = () => {
         setPortals(response.data);
         setLoading(false);
       } catch {
-        setError("Error al obtener los portales");
+        setError("");
         setLoading(false);
       }
     };

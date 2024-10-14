@@ -4,7 +4,7 @@ import path from "path";
 
 export const router = Router();
 
-const dataPath = path.join(__dirname, "data.json");
+const dataPath = path.join(__dirname, "./backend/data.json");
 
 router.get("/portals", (req, res) => {
   fs.readFile(dataPath, "utf-8", (err, data) => {

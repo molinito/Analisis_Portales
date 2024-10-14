@@ -31,7 +31,7 @@ const express_1 = require("express");
 const fs = __importStar(require("fs"));
 const path_1 = __importDefault(require("path"));
 exports.router = (0, express_1.Router)();
-const dataPath = path_1.default.join(__dirname, "data.json");
+const dataPath = path_1.default.join(__dirname, "./backend/data.json");
 exports.router.get("/portals", (req, res) => {
     fs.readFile(dataPath, "utf-8", (err, data) => {
         if (err) {
