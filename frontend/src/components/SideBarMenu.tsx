@@ -40,8 +40,8 @@ export const SideBarMenu: React.FC = () => {
   useEffect(() => {
     const fetchPortals = async () => {
       try {
-        //const response = await axios.get("http://localhost:3005/api/portals");
-        const response = await axios.get(`http://localhost:3005/api/portals`);
+        const response = await axios.get("http://localhost:3005/api/portals");
+        //const response = await axios.get(`http://localhost:3005/api/portals`);
         setPortals(response.data);
         setLoading(false);
       } catch {
