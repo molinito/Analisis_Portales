@@ -5,7 +5,7 @@ import path from "path"; // Importa path para servir archivos estáticos
 import { router } from "./routes";
 
 const app = express();
-const port = 3005;
+const port = process.env.PORT || 3005; // Cambia esto
 
 // Habilita CORS para todas las rutas
 app.use(cors());

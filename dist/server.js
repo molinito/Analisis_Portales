@@ -9,7 +9,7 @@ const cors_1 = __importDefault(require("cors")); // Importa cors
 const path_1 = __importDefault(require("path")); // Importa path para servir archivos estáticos
 const routes_1 = require("./routes");
 const app = (0, express_1.default)();
-const port = 3005;
+const port = process.env.PORT || 3005; // Cambia esto
 // Habilita CORS para todas las rutas
 app.use((0, cors_1.default)());
 app.use(body_parser_1.default.json());
