@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Portal de Onnis",
+    "url": "http://186.189.234.96:3000/",
+    "usage": {
+      "totalVisits": 4,
+      "totalTimeSpent": 116,
+      "mostVisitedSection": "Página Principal"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Portal Mbas HHCC",
+    "url": "http://186.13.41.66:5010/Login",
+    "usage": {
+      "totalVisits": 5,
+      "totalTimeSpent": 217,
+      "mostVisitedSection": "Página Principal"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Portal Mbas Pacientes",
+    "url": "http://181.168.126.40:8182",
+    "usage": {
+      "totalVisits": 2,
+      "totalTimeSpent": 7,
+      "mostVisitedSection": "Página Principal"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Portal ITC",
+    "url": "http://201.231.113.236:3000 ",
+    "usage": {
+      "totalVisits": 7,
+      "totalTimeSpent": 241,
+      "mostVisitedSection": "Página Principal"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Portal RGauss",
+    "url": "http://201.231.113.236:3000/Login",
+    "usage": {
+      "totalVisits": 5,
+      "totalTimeSpent": 120,
+      "mostVisitedSection": "Página Principal"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Portal Clínica del Sol",
+    "url": "https://portal.clinicadelsol.com.ar:3000",
+    "usage": {
+      "totalVisits": 6,
+      "totalTimeSpent": 220,
+      "mostVisitedSection": "Página Principal"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Portal CoC",
+    "url": "http://200.123.109.166:3000/Login",
+    "usage": {
+      "totalVisits": 10,
+      "totalTimeSpent": 285,
+      "mostVisitedSection": "Página Principal"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Portal Nascentis",
+    "url": "http://200.105.78.130:3000/Login",
+    "usage": {
+      "totalVisits": 3,
+      "totalTimeSpent": 31,
+      "mostVisitedSection": "Página Principal"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Portal Giovo",
+    "url": "http://turnero.centrogiovo.com:3080/Login/",
+    "usage": {
+      "totalVisits": 5,
+      "totalTimeSpent": 99,
+      "mostVisitedSection": "Página Principal"
+    }
+  }
+]
