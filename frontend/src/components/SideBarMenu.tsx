@@ -44,7 +44,7 @@ export const SideBarMenu: React.FC = () => {
     const fetchPortals = async () => {
       try {
         //const response = await axios.get("http://localhost:3005/api/portals");
-        const response = await axios.get("https://analisis-portales-back.onrender.com/");  // Cambio para obtener los portales
+        const response = await axios.get("https://analisis-portales-back.onrender.com");  // Cambio para obtener los portales
 
         //const response = await axios.get(`http://localhost:3005/api/portals`);
         setPortals(response.data);
