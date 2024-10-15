@@ -8,7 +8,12 @@ export default defineConfig({
   },
   server: {
     proxy: {
-      "/api": "http://localhost:3005", // Solo en desarrollo
+      "/api": {
+        target: "https://analisis-portales-back.onrender.com/",
+        changeOrigin: true,
+        secure: false,
+      },
     },
   },
+
 });
