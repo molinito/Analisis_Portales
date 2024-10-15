@@ -5,9 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "serve -s build",
+    "build": "vite build", 
+    "serve": "vite preview"
   },
   "dependencies": {
     "@emotion/react": "^11.13.3",
