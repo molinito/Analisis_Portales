@@ -45,8 +45,6 @@ export const SideBarMenu: React.FC = () => {
       try {
         //const response = await axios.get("http://localhost:3005/api/portals");
         const response = await axios.get("https://analisis-portales-back.onrender.com");  // Cambio para obtener los portales
-
-        //const response = await axios.get(`http://localhost:3005/api/portals`);
         setPortals(response.data);
         setLoading(false);
       } catch {
@@ -59,7 +57,7 @@ export const SideBarMenu: React.FC = () => {
   }, []);
 
   if (loading) {
-    return;
+    return <p>Cargando...</p>;
   }
 
   if (error) {
