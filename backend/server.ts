@@ -14,8 +14,14 @@ app.use(bodyparser.json());
 // Sirve los archivos estáticos del frontend compilado
 //app.use(express.static(path.join(__dirname, "../frontend/dist")));
 
+
+
 // API routes
 app.use("/api", router);
+
+app.get('/api/portals', (req, res) => {
+  res.json({ message: 'API funcionando' });
+});
 
 // Para cualquier ruta que no sea de API, servir el frontend
 //app.get("*", (req, res) => {
