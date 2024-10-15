@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "ES2020", // Cambia a ES2020 si es compatible con tu entorno
     "module": "commonjs",
-    "outDir": "./dist",
+    "outDir": "./backend/dist",
     "rootDir": "./backend", // Cambia esto a la carpeta backend
     "strict": true,
     "esModuleInterop": true,
@@ -12,3 +12,5 @@
   "include": ["backend/**/*.ts"],
   "exclude": ["node_modules"]
 }
+
+
