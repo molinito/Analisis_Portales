@@ -1,15 +1,13 @@
 {
   "compilerOptions": {
-    "target": "ES2020", // Cambia a ES2020 si es compatible con tu entorno
+    "outDir": "./backend/dist",  // Define que la carpeta de salida esté dentro de backend/dist
+    "rootDir": "./backend",      // La carpeta raíz debe ser la carpeta backend
     "module": "commonjs",
-    "outDir": "./dist",
-    "rootDir": "./backend", // Cambia esto a la carpeta backend
-    "strict": true,
+    "target": "es6",
     "esModuleInterop": true,
-    "skipLibCheck": true, // Opcional, pero puede acelerar la compilación
-    "forceConsistentCasingInFileNames": true // Opcional, para evitar problemas de mayúsculas/minúsculas
+    "strict": true
   },
-  "include": ["backend/**/*.ts"],
+  "include": ["backend/**/*.ts"], // Asegúrate de incluir los archivos TypeScript del backend
   "exclude": ["node_modules"]
 }
 
