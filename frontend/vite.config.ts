@@ -9,7 +9,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://analisis-portales-back.onrender.com/",
+        target: "https://analisis-portales-back.onrender.com",
         changeOrigin: true,
         secure: false,
       },
